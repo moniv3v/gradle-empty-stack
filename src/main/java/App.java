@@ -12,5 +12,9 @@ public class App {
         vehicleA.speedUp(30);
         Vehicle vehicleB = new Vehicle("B","Benz");
         vehicleB.speedUp(40);
+
+        Car car = new Car("My car","Goodbye");
+        car.speedUp(180);
+        car.speedUp(201);
     }
 }
